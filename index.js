@@ -5,8 +5,8 @@ import UserRoute from "./routes/UserRoute.js";
  
 const app = express();
  mongoose.connect('mongodb://syifarahma:syifadaffa@ac-ifigzcd-shard-00-00.wrwgu11.mongodb.net:27017,ac-ifigzcd-shard-00-01.wrwgu11.mongodb.net:27017,ac-ifigzcd-shard-00-02.wrwgu11.mongodb.net:27017/?ssl=true&replicaSet=atlas-ijx9k2-shard-0&authSource=admin&retryWrites=true&w=majority',{   
-    useNewUr1Parser: true,
-    
+    useNewUrlParser: true,
+    useUnifiedTopology: true
 });
 const db = mongoose.connection;
 db.on('error', (error) => console.log(error));
