@@ -4,7 +4,7 @@ import cors from "cors";
 import UserRoute from "./routes/UserRoute.js";
  
 const app = express();
- mongoose.connect('mongodb://syifarahma:syifadaffa@ac-ifigzcd-shard-00-00.wrwgu11.mongodb.net:27017,ac-ifigzcd-shard-00-01.wrwgu11.mongodb.net:27017,ac-ifigzcd-shard-00-02.wrwgu11.mongodb.net:27017/?ssl=true&replicaSet=atlas-ijx9k2-shard-0&authSource=admin&retryWrites=true&w=majority',{   
+ mongoose.connect('mongodb://mongodb://syifarahma:syifadaffa@ac-3xtfkci-shard-00-00.kltvesv.mongodb.net:27017,ac-3xtfkci-shard-00-01.kltvesv.mongodb.net:27017,ac-3xtfkci-shard-00-02.kltvesv.mongodb.net:27017/?ssl=true&replicaSet=atlas-zydvr9-shard-0&authSource=admin&retryWrites=true&w=majority',{   
     useNewUrlParser: true,
     useUnifiedTopology: true
 });

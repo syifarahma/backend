@@ -1,15 +1,27 @@
 import mongoose from "mongoose";
  
 const User = mongoose.Schema({
-    name:{
+    Nama:{
         type: String,
         required: true
     },
-    email:{
+    NIM:{
         type: String,
         required: true
     },
-    gender:{
+    Kelas:{
+        type: String,
+        required: true
+    },
+    Semester:{
+        type: String,
+        required: true
+    },
+    JenisKelamin:{
+        type: String,
+        required: true
+    },
+    Alamat:{
         type: String,
         required: true
     }
